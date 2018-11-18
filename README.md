@@ -2,7 +2,7 @@
 Keep going :)
 
 ## Notes
-UVA-119:
+UVA-119:  
   Speed up line (may cause the situation below):
   ```
   ios_base::sync_with_stdio(false);
