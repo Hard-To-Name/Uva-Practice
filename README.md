@@ -56,7 +56,7 @@ Keep going :)
 ### UVA-11956:  
   Usage of printf: http://www.cypress.com/file/54441/download
   ```
-  $o: print a number in octal (base 8)
+  %o: print a number in octal (base 8)
   %d: print a decimal number (base 10)
   %x: print a number in hexidecimal (base 16)
   ```
