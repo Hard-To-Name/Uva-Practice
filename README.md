@@ -60,3 +60,17 @@ Keep going :)
   %d: print a decimal number (base 10)
   %x: print a number in hexidecimal (base 16)
   ```
+  
+### UVA-230:  
+  C Arrays, String Constants and Pointers: https://icecube.wisc.edu/~dglo/c_class/array_ptr.html  
+  - For g++ version <= 3.4, overloaded operator function for sort() must be const.  
+  - Common C char array Usage (char array denoted by cstring below):  
+    (1) strcmp(cstring, cstring)  
+    (2) strncmp(cstring, cstring, n)  
+    (3) strchr(cstring, char) - e.g. int position = strchr(buf, char) - buf  
+    (4) strcpy(cstring, cstring) - e.g. strcpy(cstring, buf + 1);  
+    (5) strncpy(cstring, cstring, n) - e.g. strncpy(cstring, buf, position + 1)  
+    (6) sort(cstring, cstring + size)  
+  - When needed to sort two arrays based on one:  
+    (1) Create a struct with operator <  
+    (2) Use array/vector + unordered_map  
