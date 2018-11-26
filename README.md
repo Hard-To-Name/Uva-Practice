@@ -3,7 +3,7 @@ Keep going :)
 
 ## Notes
 ### UVA-119:  
-  Speed up line (may cause the situation below):
+  **Speed up line** (may cause the situation below):
   ```cpp
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
@@ -63,7 +63,7 @@ Keep going :)
   
 ### UVA-230:  
   C Arrays, String Constants and Pointers: https://icecube.wisc.edu/~dglo/c_class/array_ptr.html  
-  - For g++ version <= 3.4, overloaded operator function for sort() must be const.  
+  - For g++ version <= 3.4, overloaded operator function for sort() must be **const**.  
   - Common C char array Usage (char array denoted by cstring below):  
     ```
     (1) strcmp(cstring, cstring)  
@@ -80,7 +80,7 @@ Keep going :)
     ```
   
 ### UVA-394:
-  unordered_map::hash_function() and unordered_map::key_eq() are both hashing off pointers.  
+  **unordered_map::hash_function()** and **unordered_map::key_eq()** are both hashing off pointers.  
   (https://stackoverflow.com/questions/20649864/c-unordered-map-with-char-as-key)  
   Therefore, better not use cstring (char \*) as key; otherwise each time the map creates a new key.  
   If cstring or other pointers is used as key, then customize both the hash function and the equal function:  
