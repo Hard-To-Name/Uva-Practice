@@ -78,3 +78,11 @@ Keep going :)
     (1) Create a struct with operator <  
     (2) Use array/vector + unordered_map  
     ```
+  
+### UVA-394:
+  unordered_map::hash_function() and unordered_map::key_eq() are both hashing off pointers.  
+  (https://stackoverflow.com/questions/20649864/c-unordered-map-with-char-as-key)  
+  Therefore, better not use cstring (char \*) as key; otherwise each time the map creates a new key.  
+  If cstring or other pointers is used as key, then customize both the hash function and the equal function:  
+  - hash_function(): https://en.cppreference.com/w/cpp/utility/hash  
+  - key_eq(): http://www.cplusplus.com/reference/map/map/map/  
