@@ -90,4 +90,4 @@ Keep going :)
 ### UVA-406:
 **scanf()** can cause infinite loop:  
 https://stackoverflow.com/questions/1716013/why-is-scanf-causing-infinite-loop-in-this-code  
-**scanf()** consumes only the input that matches the format string, returning the number of characters consumed. Any character that doesn't match the format string causes it to stop scanning and leaves the invalid character still in the buffer.
+Reason: **scanf()** consumes only the input that matches the format string, returning the number of characters consumed. Any character that doesn't match the format string causes it to stop scanning and leaves the invalid character still in the buffer.
