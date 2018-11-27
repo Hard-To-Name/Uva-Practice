@@ -86,3 +86,8 @@ Keep going :)
   If cstring or other pointers is used as key, then customize both the hash function and the equal function:  
   - hash_function(): https://en.cppreference.com/w/cpp/utility/hash  
   - key_eq(): http://www.cplusplus.com/reference/map/map/map/  
+  
+### UVA-406:
+**scanf()** can cause infinite loop:  
+https://stackoverflow.com/questions/1716013/why-is-scanf-causing-infinite-loop-in-this-code  
+**scanf()** consumes only the input that matches the format string, returning the number of characters consumed. Any character that doesn't match the format string causes it to stop scanning and leaves the invalid character still in the buffer.
